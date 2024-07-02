@@ -1,3 +1,15 @@
+pkg update && pkg upgrade
+pkg install git
+pkg install python
+
+rm -rf OLD
+
+git clone https://github.com/mafiams16/OLD
+
+cd OLD
+
+python Old_enc.py
+
 ![Screenshot_2024-07-02-05-51-19-29_84d3000e3f4017145260f7618db1d683](https://github.com/mafiams16/OLD/assets/169494886/4eb8b0ee-8f91-4139-80ee-be9d64a6faa8)
 ![Screenshot_2024-07-02-05-53-16-09_84d3000e3f4017145260f7618db1d683](https://github.com/mafiams16/OLD/assets/169494886/d4b1e29a-8831-4ea9-80e3-20d21bab531f)
 ![Screenshot_2024-07-02-05-54-46-57_84d3000e3f4017145260f7618db1d683](https://github.com/mafiams16/OLD/assets/169494886/3a641a46-7b05-47b9-a894-308efaa4c5af)
